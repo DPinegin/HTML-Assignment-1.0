@@ -4,50 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    <h2>Welcome to the Login Page</h1>
-    <p>Please login to see the full website.</p>
-    <br />
-    <br />
+  <h2>Welcome to the Login Page</h1>
+  <p>Please login to see the full website.</p>
+
+  <br />
+  <br />
 
 
-    <form action="/index.html">
-
+  <form action="/index.html">
     <label for="email-address">Enter E-Mail address here [required]:</label>
     <input type="email" name="email" id="email-address" minlength="6" maxlength="40" required/>
+
     <br />
     <br />
+
     <label for="password">Enter your password [required]:</label>
     <input type="password" name="userPassword" id="password" minlength="10" required/>
+
+
     <br />
     <br />
+
+
     <p>Please select your age range:</p>
 
-    <input type="radio" id="age1" name="age" value="0" required>
+    <input 
+      type="radio" 
+      id="age1" 
+      name="age" 
+      value="0" 
+      required
+      />
     <label for="age1">0 - 10</label>
+
     <br />
+
     <input type="radio" id="age2" name="age" value="11">
     <label for="age2"> 11 - 13</label>
+
     <br />
+
     <input type="radio" id="age3" name="age" value="14">
     <label for="age3"> 14 - 18</label>
+
     <br />
+
     <input type="radio" id="age4" name="age" value="19">
     <label for="age4"> 19 + </label>
+
     <br />
     <br />
+
     <input type="checkbox" id="agreement" name="agreement" value="Agreed" required>
     <label for="agreement">I have read and agreed to the Terms and Conditions of this website</label>
+
     <br />
+
     <a href="terms.html">Terms and Condition for usage.</a>
+
     <br />
     <br />
+
     <button type="submit" value="Submit">Submit</button>
     <button type="reset" value="Reset">Reset</button>
 
-    </form>
+  </form>
 
 
 </body>

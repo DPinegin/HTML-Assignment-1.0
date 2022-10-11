@@ -1,44 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-</head>
-<body>
+    <title>Home-Page</title>
+  </head>
+  <body>
     <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #b2ebde77;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: rgb(0, 0, 0);
-          text-align: center;
-          padding: 16px;
-          text-decoration: none;
-        }
-        
-        li a:hover {
-          background-color: #82c7bb;
-        }
-        </style>
-    <center><h1>The Historion</h1></center>
-    <center><p>How is the weather? I like you already...</p></center>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #b2ebde77;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #82c7bb;
+      }
+    </style>
+
+    <center>
+      <h1>The Historion</h1>
+    </center>
+
+    <center>
+      <p>How is the weather? I like you already...</p>
+    </center>
 
     <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/study.html">Weekly Study</a></li>
-      </ul>
-</body>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/study.html">Weekly Study</a></li>
+    </ul>
+
+    <br />
+    <br />
+
+    <center>
+      <img
+        src="pictures/temple2.jpg"
+        width="800px"
+        height="500px"
+        alt="Description. Photo Credit Greeka."
+      />
+    </center>
+
+    <br />
+    <br />
+
+    <form name="Tutoring-Needed" id="help" method="get">
+      <fieldset form="travel-suggestion" name="travel-items">
+        <legend>Need help with this week's study?</legend>
+
+        <br />
+
+        <label for="meeting-time">Choose a meeting time for help!</label>
+        <input
+          type="time"
+          id="meeting-time"
+          name="meeting-time"
+          min="08:30"
+          max="15:30"
+          required
+        />
+        <small>Office hours are from 8:30am to 3:30pm</small>
+
+        <br />
+        <br />
+
+        <button type="submit" value="Submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <table>
+      <tr>
+        <th>Archaeologists&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year/s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+        <th>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Famous
+          Discoveries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+      </tr>
+
+      <tr>
+        <tr>
+        <td>Harriet Boyd-Hawes</td>
+        <td>&nbsp;&nbsp;&nbsp;1901</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gournia Palace Complex</td>
+      </tr>
+
+        <td>Sir Arthur Evans</td>
+        <td>&nbsp;&nbsp;&nbsp;1900-1903</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Palace of Knossos</td>
+      </tr>
+
+      <tr>
+        <td>Luigi Pernier</td>
+        <td>&nbsp;&nbsp;&nbsp;1908</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phaistos Disk</td>
+      </tr>
+
+      <tr>
+        <td>Joseph Hazzidakis</td>
+        <td>&nbsp;&nbsp;&nbsp;1915</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Palace of Malia</td>
+      </tr>
+      
+    </table>
+    <br />
+  </body>
 </html>
