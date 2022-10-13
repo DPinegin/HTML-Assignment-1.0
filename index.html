@@ -7,82 +7,72 @@
     <title>Home-Page</title>
   </head>
   <body>
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #b2ebde77;
-      }
+    <header>
+      <center>
+        <h1>The Historion</h1>
+      </center>
 
-      li {
-        float: left;
-      }
+      <center>
+        <p><b>Historic Studies Based on Known Facts</b></p>
+      </center>
+      <nav>
+        <style>
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #8deafa57;
+          }
 
-      li a {
-        display: block;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-      }
+          li {
+            float: left;
+          }
 
-      li a:hover {
-        background-color: #82c7bb;
-      }
-    </style>
+          li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+          }
 
-    <center>
-      <h1>The Historion</h1>
-    </center>
+          li a:hover {
+            background-color: #72c2f0;
+          }
+        </style>
 
-    <center>
-      <p>How is the weather? I like you already...</p>
-    </center>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/study.html">Weekly Study</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/study.html">Weekly Study</a></li>
-    </ul>
+    <main>
+      <br />
+      <br />
+      <figure>
+        <center>
+          <img
+            src="pictures/temple2.jpg"
+            width="800px"
+            height="500px"
+            alt="A picture of the palace of Knossos. A large ancient temple with bright red columns 
+            and a mural of a red bull on the walls. The temple is in ruins, and is located on a hill 
+            full of rock and stones. Those are the reamins of the palace of Knossos in Crete. Photo Credit: Greeka." />
+        </center>
+      </figure>
 
-    <br />
-    <br />
-
-    <center>
-      <img
-        src="pictures/temple2.jpg"
-        width="800px"
-        height="500px"
-        alt="Description. Photo Credit Greeka." />
-    </center>
-
-    <br />
-    <br />
-
-    <form name="Tutoring-Needed" id="help" method="get">
-      <fieldset form="travel-suggestion" name="travel-items">
-        <legend>Need help with this week's study?</legend>
-
-        <br />
-
-        <label for="meeting-time">Choose a meeting time for help!</label>
-        <input
-          type="time"
-          id="meeting-time"
-          name="meeting-time"
-          min="08:30"
-          max="15:30"
-          required />
-        <small>Office hours are from 8:30am to 3:30pm</small>
-
-        <br />
-        <br />
-
-        <button type="submit" value="Submit">Submit</button>
-      </fieldset>
-    </form>
-    <br />
+      <br />
+      <br />
+      <p>
+        Welcome to the official site of Historion! Click on "Weekley Study to be
+        taken to this week's civilization of study!"
+      </p>
+      <br />
+    </main>
   </body>
 </html>
