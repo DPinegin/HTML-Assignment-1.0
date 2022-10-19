@@ -7,6 +7,7 @@
     <title>Login</title>
 </head>
 <body>
+  <!--A welcome sentence for the user-->
   <heading>
     <h2>Welcome to the Login Page</h1>
     <p>Please login to see the full website.</p>
@@ -17,13 +18,16 @@
     <br />
 
 
+    <!--If the login was successful, it will take the suer to the following page-->
     <form action="/index.html">
+      <!--user must input their email address.-->
       <label for="email-address">Enter E-Mail address here [required]:</label>
       <input type="email" name="email" id="email-address" minlength="6" maxlength="40" required/>
 
       <br />
       <br />
 
+      <!--user must input their password to log in.-->
       <label for="password">Enter your password [required]:</label>
       <input type="password" name="userPassword" id="password" minlength="10" required/>
 
@@ -34,6 +38,7 @@
 
       <p>Please select your age range:</p>
 
+      <!--User must select their correct age range.-->
       <input type="radio" id="age1" name="age" value="0" required/>
       <label for="age1">0 - 10</label>
 
@@ -55,16 +60,19 @@
       <br />
       <br />
 
+      <!--user must agree to the Terms and Services of the website.-->
       <input type="checkbox" id="agreement" name="agreement" value="Agreed" required>
       <label for="agreement">I have read and agreed to the Terms and Conditions of this website</label>
 
       <br />
 
+      <!--a link to the Terms and Services page that the user can view-->
       <a href="terms.html">Terms and Condition for usage.</a>
 
       <br />
       <br />
 
+      <!--the submit button to submit the form and the reset button to reset the form.-->
       <button type="submit" value="Submit">Submit</button>
       <button type="reset" value="Reset">Reset</button>
 
